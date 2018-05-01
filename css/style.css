@@ -7,8 +7,10 @@ body {
 }
 
 header a { color: white }
+header a { text-decoration: none }
 
 footer a { color: white }
+footer a { text-decoration: none }
 
 /******************************************
 /* LAYOUT
@@ -197,7 +199,7 @@ div #grid {
 	display: flex;
 	flex-wrap: wrap;
 	height: 800px;
-  width: 50%;
+  width: 55%;
   margin-right: auto;
 }
 
@@ -213,9 +215,9 @@ div #grid {
 }
 
 div #menu-column-1 {
-width: 50%;
+width: 45%;
 height:800px;
-margin-left: 1%;
+margin-left: auto;
 } 
 /* end of overlay */
 
