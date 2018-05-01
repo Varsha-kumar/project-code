@@ -6,6 +6,10 @@ body {
   font-weight: 300;
 }
 
+header a { color: white }
+
+footer a { color: white }
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -142,17 +146,12 @@ div.transbox p {
 }
 
 #menu {
-  background:#121212;
+  background: url(../images/hands.JPG); 
   display: flex;
   align-items: center;
   justify-content:center;
-  flex-flow: column wrap;
   flex: 1 100%;
-}
-
-div #grid {
-margin-left: auto;  
-margin-right: 1%;
+  width: 100%;
 }
 
 /* start of overlay */
@@ -194,13 +193,31 @@ margin-right: 1%;
   text-align: center;
 }
 /* end of overlay */
+div #grid {
+	display: flex;
+	flex-wrap: wrap;
+	height: 800px;
+  width: 50%;
+  margin-right: auto;
+}
+
+/* start of overlay */
+#grid-item {
+  position: relative;
+  width: 247px;
+  height: 247px;
+}
+
+#grid-item:hover .overlay {
+  opacity: 1;
+}
 
 div #menu-column-1 {
-width: 49%;
+width: 50%;
 height:800px;
-background: url(../images/hands.JPG); 
-margin-right: auto;
+margin-left: 1%;
 } 
+/* end of overlay */
 
 #contact {
   height: 300px;
