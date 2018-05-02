@@ -1,105 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
 
-		<title>A.cafe</title>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+<head>
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
-								
-	</head>
-	<body>
-		<header>
-			<img src="images/logo-small.jpg" alt="Logo" class=logo>
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Menu</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
+	<title>A.cafe</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
 
-<div class="container">
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="parsley.css">
+</head>
+
+<body>
+	<header>
+		<a name="mainpage"></a>
+		<img src="images/logo-small.jpg" alt="Logo" class=logo>
+
+		<nav>
+			<ul>
+				<li>
+					<a href="#mainpage">Home</a>
+				</li>
+				<li>
+					<a href="#aboutpage">About</a>
+				</li>
+				<li>
+					<a href="#menupage">Menu</a>
+				</li>
+				<li>
+					<a href="#contactpage">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
 		<!-- Slideshow container -->
-	<section id="home">
-		<div class="slideshow-container">
+		<section id="home">
 
-		<!-- Full-width images with number and caption text -->
-		<div class="mySlides fade">
-		  <img src="images/carousel/carousel-cafe.jpg" style="width:100%">
-		</div>
-	  
-		<div class="mySlides fade">
-		  <img src="images/carousel/carousel-food.png" style="width:100%">
-		</div>
-	  
-		<div class="mySlides fade">
-		  <img src="images/carousel/carousel-barista-final.jpg" style="width:100%">
-		</div>
+			<div class="slideshow-container">
 
-		<div class="mySlides fade">
-				<img src="images/carousel/carousel-menu.jpg" style="width:100%">
-		</div>
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+					<img src="images/carousel/carousel-cafe.jpg" style="width:100%">
+				</div>
 
-		<!-- Next and previous buttons -->
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	  </div>
-	</section>
+				<div class="mySlides fade">
+					<img src="images/carousel/carousel-food.png" style="width:100%">
+				</div>
 
-	<section id="about">
+				<div class="mySlides fade">
+					<img src="images/carousel/carousel-barista-final.jpg" style="width:100%">
+				</div>
 
-		<div class=transbox>
-			<h1>About</h1>
-			<br>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi arcu lorem, sollicitudin quis eros ac, mollis hendrerit quam. Integer rhoncus sollicitudin metus, ac dictum massa. Fusce imperdiet, magna id imperdiet efficitur, turpis ipsum ultrices quam, vel blandit augue metus in elit. Mauris ac quam in est blandit lacinia. Suspendisse pulvinar facilisis sem ac egestas. 
-			</p>
-		</div>
-		
+				<div class="mySlides fade">
+					<img src="images/carousel/carousel-menu.jpg" style="width:100%">
+				</div>
+
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
 		</section>
+		<a name="aboutpage"></a>
+		<section id="about">
 
+			<div class=transbox>
+				<h1>About</h1>
+				<br>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi arcu lorem, sollicitudin quis eros ac, mollis hendrerit quam.
+					Integer rhoncus sollicitudin metus, ac dictum massa. Fusce imperdiet, magna id imperdiet efficitur, turpis ipsum ultrices
+					quam, vel blandit augue metus in elit. Mauris ac quam in est blandit lacinia. Suspendisse pulvinar facilisis sem ac
+					egestas.
+				</p>
+			</div>
+
+		</section>
+		<a name="menupage"></a>
 		<section id="menu">
 			<div id="menu-column-1">
-			<div id= "menu-text" class=transbox>
-				<h1>Menu</h1>
-				<br>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi arcu lorem, sollicitudin quis eros ac, mollis hendrerit quam. Integer rhoncus sollicitudin metus, ac dictum massa. Fusce imperdiet, magna id imperdiet efficitur, turpis ipsum ultrices quam, vel blandit augue metus in elit. Mauris ac quam in est blandit lacinia. Suspendisse pulvinar facilisis sem ac egestas. 
-			</p>
-			</div>
-		</div>
-
-			<!-- <div id="grid"> 
-				<div class="column">
-				
-					<div id="burger">
-					<img src="images/menu/grid/grid-burger.jpg" alt="burger" id="burger" class="image">
-						<div class="overlay">
-							<div class="text">
-							<p>Bacon & egg roll</p>
-							<p>$10.50</p>
-							</div>
-						</div>
-					</div>
-					  <img src="images/menu/grid/grid-shakshouka.jpg">
-					  <img src="images/menu/grid/grid-haloumi.jpg">
+				<div id="menu-text" class=transbox>
+					<h1>Menu</h1>
+					<br>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi arcu lorem, sollicitudin quis eros ac, mollis hendrerit quam.
+						Integer rhoncus sollicitudin metus, ac dictum massa. Fusce imperdiet, magna id imperdiet efficitur, turpis ipsum ultrices
+						quam, vel blandit augue metus in elit. Mauris ac quam in est blandit lacinia. Suspendisse pulvinar facilisis sem ac
+						egestas.
+					</p>
 				</div>
-				<div class="column">
-				  <img src="images/menu/grid/grid-bigbrekky.png">
-				  <img src="images/menu/grid/grid-eggsbenny.png">
-				  <img src="images/menu/grid/grid-frenchtoast.png">
-				</div> 
-				<div class="column">
-					<img src="images/menu/grid/grid-salad.png">
-					<img src="images/menu/grid/grid-pancakes.png">
-					<img src="images/menu/grid/grid-porridge.png">
-				</div> -->
-			<!-- </div> -->
+			</div>
+
 			<div id="grid">
 				<div id="grid-item">
 					<img src="images/menu/grid/grid-burger.jpg" alt="burger" class="image">
@@ -190,54 +183,73 @@
 					</div>
 				</div>
 			</div>
-		
 		</section>
 
+		<a name="contactpage"></a>
 		<section id="contact">
-				<h1>Contact</h1>
-				<br>
-				<form data-parsley-validate>
-					<div class="form-group col-md-6">
-					<label for="first-name">Name</label>
-					<input class="form-control" id="name" type="text" placeholder="Name" data-parsley-required>
-					</div>
-					
-					<div class="form-group col-md-6">
+			<h1>Contact</h1>
+			<br>
+			<form data-parsley-validate>
+				<div class="form-group col-md-6">
+					<label for="first-name">First Name</label>
+					<input class="form-control" id="first-name" type="text" placeholder="John" data-parsley-required>
+				</div>
+
+				<div class="form-group col-md-6">
+					<label for="last-name">Last Name</label>
+					<input class="form-control" id="last-name" type="text" placeholder="Smith" data-parsley-required>
+				</div>
+
+				<div class="form-group col-md-6">
 					<label for="email">Email</label>
 					<input class="form-control" id="email" type="email" placeholder="Email" data-parsley-required>
-					</div>
-	
-					<div class="form-group col-md-6">
+				</div>
+
+				<div class="form-group col-md-6">
 					<label for="email">Phone number</label>
 					<input class="form-control" id="phone" type="text" placeholder="Phone number">
-					</div>
-					
-					<div></div>
+				</div>
+
+				<div>
 					<input id="send" type="submit" value="Send enquiry">
-			    	</div>
-					</form>
+				</div>
+			</form>
 		</section>
-	</div>
 
 		<footer>
 			<img src="images/logo-small.jpg" alt="Logo">
 			<nav>
 				<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Menu</a></li>
-				<li><a href="#">Contact</a></li>
+					<li>
+						<a href="#mainpage">Home</a>
+					</li>
+					<li>
+						<a href="#aboutpage">About</a>
+					</li>
+					<li>
+						<a href="#menupage">Menu</a>
+					</li>
+					<li>
+						<a href="#contactpage">Contact</a>
+					</li>
 				</ul>
-			</nav>	
+			</nav>
 
 			<p>&copy;Copyright 2018</p>
 			<span>
-				<img src="images/facebook.png" alt="Facebook" class= "icon" id="FB">
-				<img src="images/twitter.png" alt="Twitter" class= "icon" id="TW">
+				<a href="#">
+					<img src="images/facebook.png" alt="Facebook" class="icon" id="FB">
+				</a>
+				<a href="#">
+					<img src="images/twitter.png" alt="Twitter" class="icon" id="TW">
+				</a>
 			</span>
 		</footer>
 
 		<script type="text/javascript" src="javascript/carousel.js"></script>
-	</body>
-</html>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js"></script>
 
+</body>
+
+</html>
